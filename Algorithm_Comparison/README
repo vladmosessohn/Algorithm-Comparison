@@ -1,0 +1,7 @@
+Mosessohn Vlad- 322CA- ETAPA 2
+
+Am implementat cele 3 metode alese(RadixSort, ShellSort si CombSort) in cele 3 fisiere cpp: algo.cpp, aglo2.cpp, algo3.cpp. Makefile-ul si fisierul cpp tester.cpp le-am luat din exemplul dat in tema, iar algoritmii i-am redefinit eu inspirandu-ma de pe site-urile: https://www.geeksforgeeks.org/radix-sort/ ,  https://www.geeksforgeeks.org/comb-sort/ si https://www.geeksforgeeks.org/shellsort/. Am creat fisierele de intrare dupa cum am precizat si la etapa 1 cu un generator random. Fisierul algo.h include toate anteturile functiilor folosite. In fisierele .out din folderul out sunt referintele cu care trebuie comparate rezultatele obtinute in urma implementarilor mele. Acestea sunt comparate cu ajutorul fisierului tester.cpp
+A se rula(comenzi):
+1. make clean
+2. make build_shell   sau   make build_radix   sau   make build_comb
+3.make run
